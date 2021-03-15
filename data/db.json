@@ -1,0 +1,507 @@
+{
+  "users": [
+    {
+      "name": "Cyrus",
+      "email": "cyDog@dog.com",
+      "City": "Thousand Oaks",
+      "Address": "Nice Place",
+      "phone": "8005882300",
+      "password": "tennisBall",
+      "friends": [],
+      "id": 11
+    },
+    {
+      "name": "Max",
+      "email": "maxDog@dog.com",
+      "City": "Westfield",
+      "Address": "Greyhound Pass",
+      "phone": "1231238123123",
+      "password": "tennisBall",
+      "friends": [
+        {
+          "name": "Cyrus",
+          "email": "",
+          "City": "Thousand Oaks",
+          "Address": "",
+          "phone": "",
+          "password": "",
+          "friends": [],
+          "id": ""
+        },
+        {
+          "name": "Ellie",
+          "email": "",
+          "City": "Westfield",
+          "Address": "",
+          "phone": "",
+          "password": "",
+          "friends": [],
+          "id": ""
+        },
+        {
+          "name": "Trevor",
+          "email": "",
+          "City": "Westfield",
+          "Address": "",
+          "phone": "",
+          "password": "",
+          "friends": [],
+          "id": ""
+        },
+        {
+          "name": "Zeb",
+          "email": "",
+          "City": "Broadripple",
+          "Address": "",
+          "phone": "",
+          "password": "",
+          "friends": [],
+          "id": ""
+        }
+      ],
+      "id": 12
+    },
+    {
+      "name": "Ellie",
+      "email": "ellieDog@dog.com",
+      "City": "Westfield",
+      "Address": "Victory ct",
+      "phone": "8001238888",
+      "password": "newPass",
+      "friends": [],
+      "id": 13
+    },
+    {
+      "name": "Zeb",
+      "email": "zebCat@cat.com",
+      "City": "Broadripple",
+      "Address": "Nice St",
+      "phone": "80029918880",
+      "password": "newCatGood",
+      "friends": [
+        {
+          "name": "Zeb",
+          "email": "",
+          "City": "Broadripple",
+          "Address": "",
+          "phone": "",
+          "password": "",
+          "friends": [],
+          "id": ""
+        },
+        {
+          "name": "Ellie",
+          "email": "",
+          "City": "Westfield",
+          "Address": "",
+          "phone": "",
+          "password": "",
+          "friends": [],
+          "id": ""
+        },
+        {
+          "name": "Max",
+          "email": "",
+          "City": "Westfield",
+          "Address": "",
+          "phone": "",
+          "password": "",
+          "friends": [],
+          "id": ""
+        }
+      ],
+      "id": 14
+    },
+    {
+      "name": "Trevor",
+      "email": "trevDog@dog.com",
+      "City": "Westfield",
+      "Address": "Victory Ct",
+      "phone": "8003171337",
+      "password": "goodDogLove",
+      "friends": [],
+      "id": 15
+    },
+    {
+      "name": "Amy E. Silver",
+      "email": "asilver@abcd.com",
+      "City": "Ventura",
+      "Address": "Lynnmere Av",
+      "phone": "3171239123123",
+      "password": "newPass1",
+      "friends": [
+        {
+          "name": "Ellie",
+          "email": "",
+          "City": "Westfield",
+          "Address": "",
+          "phone": "",
+          "password": "",
+          "friends": [],
+          "id": ""
+        },
+        {
+          "name": "Max",
+          "email": "",
+          "City": "Westfield",
+          "Address": "",
+          "phone": "",
+          "password": "",
+          "friends": [],
+          "id": ""
+        },
+        {
+          "name": "Cyrus",
+          "email": "",
+          "City": "Thousand Oaks",
+          "Address": "",
+          "phone": "",
+          "password": "",
+          "friends": [],
+          "id": ""
+        }
+      ],
+      "id": 16
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Subway",
+      "rating": 4.5,
+      "thumbnailURL": "https://media3.s-nbcnews.com/i/newscms/2021_04/1667205/subway-tuna-te-main-210128_d102fbe3d084bb814b997ee2d2ced2b2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Reddys Biryani Zone",
+      "rating": 5,
+      "thumbnailURL": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ylkrbzvqollrxfc5kp53"
+    },
+    {
+      "id": 3,
+      "name": "Mad Momos",
+      "rating": 4,
+      "thumbnailURL": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/jjvieg2ytl9l0y0fhtri"
+    },
+    {
+      "id": 4,
+      "name": "Mandarin Oak",
+      "rating": 4.9,
+      "thumbnailURL": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/j0uxiukml9jzpxvxbt0w"
+    },
+    {
+      "id": 5,
+      "name": "The Good Bowl",
+      "rating": 3,
+      "thumbnailURL": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/nqw2klwsqyfnjow5x2fy"
+    },
+    {
+      "id": 6,
+      "name": "Cafe Peter",
+      "rating": 5,
+      "thumbnailURL": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/wjfwo0mpmfs7fub7ykvp"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "description": "Indian",
+      "name": "Roasted Chicken Biryani",
+      "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ylkrbzvqollrxfc5kp53",
+      "cost": "190"
+    },
+    {
+      "id": 2,
+      "description": "Indian",
+      "name": "Chicken Momos",
+      "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/jjvieg2ytl9l0y0fhtri",
+      "cost": "69"
+    },
+    {
+      "id": 3,
+      "description": "Indian",
+      "name": "Cajun Spiced Chicken",
+      "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/vx4uld2hyksrrlrmqpmg",
+      "cost": "260"
+    },
+    {
+      "id": 4,
+      "description": "Asian, Chinese, Thai",
+      "name": "Steamed Chicken Dumplings",
+      "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/j0uxiukml9jzpxvxbt0w",
+      "cost": "150"
+    },
+    {
+      "id": 5,
+      "description": "Fast Food, North Indian",
+      "name": "Immunity Booster Chole Rice Bowl",
+      "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/nqw2klwsqyfnjow5x2fy",
+      "cost": "200"
+    },
+    {
+      "id": 6,
+      "description": "Korean, Continental, Bakery",
+      "name": "Cheese Chilli Toast",
+      "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/wjfwo0mpmfs7fub7ykvp",
+      "cost": "250"
+    },
+    {
+      "id": 7,
+      "description": "North Indian",
+      "name": "Chicken Fry",
+      "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/yktmfporzgu0jatkevqr",
+      "cost": "125"
+    },
+    {
+      "id": 8,
+      "description": "Chinese, North Indian",
+      "name": "Chicken Pakora",
+      "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/gjuhuccffbwnonxanyl9",
+      "cost": "145"
+    },
+    {
+      "id": 9,
+      "description": "Indian",
+      "name": "Chicken Dry Fry",
+      "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/d59qdvgdq2caad7nhipx",
+      "cost": "100"
+    },
+    {
+      "id": 10,
+      "description": "Mughlai, North Indian, Chinese",
+      "name": "Chicken Kadai",
+      "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/onlp7ojjmh1qhivm0yxv",
+      "cost": "230"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "usrId": "14",
+      "date": "2021-03-15T07:03:31.918Z",
+      "item": [
+        {
+          "usrId": "14",
+          "restaurant": "Reddys Biryani Zone",
+          "item": {
+            "description": "Indian",
+            "name": "Chicken Momos",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/jjvieg2ytl9l0y0fhtri",
+            "cost": "69"
+          },
+          "id": 5
+        },
+        {
+          "usrId": "14",
+          "restaurant": "Reddys Biryani Zone",
+          "item": {
+            "description": "Indian",
+            "name": "Cajun Spiced Chicken",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/vx4uld2hyksrrlrmqpmg",
+            "cost": "260"
+          },
+          "id": 6
+        },
+        {
+          "usrId": "14",
+          "restaurant": "Reddys Biryani Zone",
+          "item": {
+            "description": "Indian",
+            "name": "Roasted Chicken Biryani",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ylkrbzvqollrxfc5kp53",
+            "cost": "190"
+          },
+          "id": 7
+        },
+        {
+          "usrId": "14",
+          "restaurant": "Reddys Biryani Zone",
+          "item": {
+            "description": "Mughlai, North Indian, Chinese",
+            "name": "Chicken Kadai",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/onlp7ojjmh1qhivm0yxv",
+            "cost": "230"
+          },
+          "id": 8
+        }
+      ],
+      "cost": 749,
+      "id": 1
+    },
+    {
+      "usrId": "12",
+      "date": "2021-03-15T07:04:05.600Z",
+      "item": [
+        {
+          "usrId": "12",
+          "restaurant": "The Good Bowl",
+          "item": {
+            "description": "Indian",
+            "name": "Roasted Chicken Biryani",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ylkrbzvqollrxfc5kp53",
+            "cost": "190"
+          },
+          "id": 1
+        },
+        {
+          "usrId": "12",
+          "restaurant": "The Good Bowl",
+          "item": {
+            "description": "Indian",
+            "name": "Chicken Momos",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/jjvieg2ytl9l0y0fhtri",
+            "cost": "69"
+          },
+          "id": 2
+        },
+        {
+          "usrId": "12",
+          "restaurant": "The Good Bowl",
+          "item": {
+            "description": "Indian",
+            "name": "Cajun Spiced Chicken",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/vx4uld2hyksrrlrmqpmg",
+            "cost": "260"
+          },
+          "id": 3
+        },
+        {
+          "usrId": "12",
+          "restaurant": "The Good Bowl",
+          "item": {
+            "description": "Mughlai, North Indian, Chinese",
+            "name": "Chicken Kadai",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/onlp7ojjmh1qhivm0yxv",
+            "cost": "230"
+          },
+          "id": 4
+        }
+      ],
+      "cost": 749,
+      "id": 2
+    },
+    {
+      "usrId": "14",
+      "date": "2021-03-15T07:05:22.594Z",
+      "item": [
+        {
+          "usrId": "14",
+          "restaurant": "Reddys Biryani Zone",
+          "item": {
+            "description": "Indian",
+            "name": "Roasted Chicken Biryani",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ylkrbzvqollrxfc5kp53",
+            "cost": "190"
+          },
+          "id": 7
+        },
+        {
+          "usrId": "14",
+          "restaurant": "Reddys Biryani Zone",
+          "item": {
+            "description": "Mughlai, North Indian, Chinese",
+            "name": "Chicken Kadai",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/onlp7ojjmh1qhivm0yxv",
+            "cost": "230"
+          },
+          "id": 8
+        }
+      ],
+      "cost": 420,
+      "id": 3
+    },
+    {
+      "usrId": "16",
+      "date": "2021-03-15T07:41:46.991Z",
+      "item": [
+        {
+          "usrId": "16",
+          "restaurant": "Subway",
+          "item": {
+            "description": "Indian",
+            "name": "Roasted Chicken Biryani",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ylkrbzvqollrxfc5kp53",
+            "cost": "190"
+          },
+          "id": 1
+        },
+        {
+          "usrId": "16",
+          "restaurant": "Subway",
+          "item": {
+            "description": "Indian",
+            "name": "Chicken Momos",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/jjvieg2ytl9l0y0fhtri",
+            "cost": "69"
+          },
+          "id": 2
+        },
+        {
+          "usrId": "16",
+          "restaurant": "Subway",
+          "item": {
+            "description": "Indian",
+            "name": "Cajun Spiced Chicken",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/vx4uld2hyksrrlrmqpmg",
+            "cost": "260"
+          },
+          "id": 3
+        },
+        {
+          "usrId": "16",
+          "restaurant": "Subway",
+          "item": {
+            "description": "Mughlai, North Indian, Chinese",
+            "name": "Chicken Kadai",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/onlp7ojjmh1qhivm0yxv",
+            "cost": "230"
+          },
+          "id": 4
+        }
+      ],
+      "cost": 749,
+      "id": 4
+    },
+    {
+      "usrId": "12",
+      "date": "2021-03-15T07:43:01.257Z",
+      "item": [
+        {
+          "usrId": "12",
+          "restaurant": "Subway",
+          "item": {
+            "description": "Indian",
+            "name": "Roasted Chicken Biryani",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ylkrbzvqollrxfc5kp53",
+            "cost": "190"
+          },
+          "id": 1
+        },
+        {
+          "usrId": "12",
+          "restaurant": "Subway",
+          "item": {
+            "description": "Indian",
+            "name": "Chicken Momos",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/jjvieg2ytl9l0y0fhtri",
+            "cost": "69"
+          },
+          "id": 2
+        },
+        {
+          "usrId": "12",
+          "restaurant": "Subway",
+          "item": {
+            "description": "Indian",
+            "name": "Cajun Spiced Chicken",
+            "image_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/vx4uld2hyksrrlrmqpmg",
+            "cost": "260"
+          },
+          "id": 3
+        }
+      ],
+      "cost": 519,
+      "id": 5
+    }
+  ]
+}
